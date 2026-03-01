@@ -69,7 +69,7 @@ export function GlassSelect({
             </button>
 
             {open && (
-                <div className="absolute z-[100] top-full left-0 right-0 mt-2 p-1.5 bg-[#0B162F]/80 backdrop-blur-2xl border border-white/10 rounded-xl shadow-2xl shadow-black/50 animate-scale-in origin-top">
+                <div className="absolute z-[100] top-full left-0 right-0 mt-2 p-1.5 bg-[#0B162F]/95 backdrop-blur-2xl border border-white/10 rounded-xl shadow-2xl shadow-black/50 animate-scale-in origin-top">
                     <div className="max-h-60 overflow-y-auto custom-scrollbar flex flex-col gap-0.5">
                         {options.map((option) => {
                             const isSelected = option.value === value

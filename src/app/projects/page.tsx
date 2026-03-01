@@ -99,7 +99,7 @@ export default function ProjectsGalleryPage() {
             </section>
 
             {/* Filters */}
-            <section className="px-6 pb-8">
+            <section className="px-6 pb-8 relative z-50">
                 <div className="max-w-6xl mx-auto">
                     <div className="flex flex-col sm:flex-row items-center gap-2 sm:gap-3 animate-fade-in-up" style={{ animationDelay: '0.2s' }}>
                         <div className="relative w-full sm:flex-1 sm:max-w-sm">
